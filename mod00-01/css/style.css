@@ -22,11 +22,26 @@ p {
     font-weight: normal;
 }
 
+p{
+	width: 50%;
+	margin: 10px auto;
+}
+
 h1 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 50px;
 	margin-bottom: 0;
 	font-weight: bold;
+}
+
+hr {
+    display: block;
+    height: 3px;
+    width: 10%;
+    border: white;
+    border-top: 1px solid #ccc;
+    margin: auto;
+    padding: 0; 
 }
 
 h2 {
@@ -45,7 +60,7 @@ h2 {
 */
 
 .wrapper {
-	width: 50%;
+	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	position: absolute;
@@ -54,7 +69,6 @@ h2 {
 	transform:	translate(-50%, -50%);
 	position: absolute;
 	background-color: rgba( 0,0,0,0.6);
-	border-radius: 30px;
-	padding: 20px; 
+	padding: 40px 20px 20px 20px; 
 
 }
