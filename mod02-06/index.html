@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<title>DOM Activity 3</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://use.fontawesome.com/0b6fab0879.js"></script>
+
+</head>
+<body>
+	<!-- css prep course -->
+	<div class="wrapper">
+		<header>
+			<h1>Tuitt Coding Bootcamp</h1>
+		</header>	
+
+		<main>
+			<!-- dashboard -->
+			<section id="mainDashboard">
+				<div class="dashColumns">
+				<h3><span class="dashIcon"><i class="fa fa-tachometer"></i></span> Dashboard</h3>
+				</div>
+
+				<!-- posts -->
+				<div class="dashColumns">
+					<div  id="postCircle">
+						<i class="fa fa-file-text-o"></i>
+					</div>
+					<div class="inline-blocked">
+					<p>5</p>
+					<p>posts</p>
+					</div>
+				</div>
+
+				<!-- images -->
+				<div class="dashColumns">
+					<div id="imageCircle">
+						<i class="fa fa-file-image-o"></i>
+					</div>
+					<div class="inline-blocked">
+					<p>13</p>
+					<p>images</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- new post -->
+			<section>
+				<h3><span class="dashIcon"><i class="fa fa-plus-square"></i></span>New Post</h3>
+
+				<form method="" action="">
+					<input id="postTitle" type="" name="" placeholder="Enter your title here.">
+					<textarea id="postContent" placeholder="Enter your content here."></textarea>
+					<input type="submit" name="" id="btnPublish" class="btn btn-blue" value="Publish">
+				</form>
+			</section>
+
+			<!-- upload image -->
+			<section>
+				<h3><span class="dashIcon"><i class="fa fa-cloud-upload"></i></span>Upload Image</h3>
+
+				<div class="img-set-holder">
+					<img class="img-set" src="http://lorempixel.com/200/200/" alt="">
+					<img class="img-set" src="http://lorempixel.com/200/200/" alt="">
+					<img class="img-set" src="http://lorempixel.com/200/200/" alt="">
+					<img class="img-set" src="http://lorempixel.com/200/200/" alt="">
+					<img class="img-set" src="http://lorempixel.com/200/200/" alt="">
+				</div>
+
+				<form method="" action="">
+					<button type="button" class="btn btn-green">Upload</button>
+					<button type="button" class="btn btn-blue">Browse</button>
+				</form>
+			</section>
+		</main>
+
+		<footer>
+			<span>Tuitt Coding Bootcamp &copy; 2017</span>
+		</footer>
+	</div>
+
+</body>
+</html>
